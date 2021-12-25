@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "siddhiaquarium.in",
+  HOST: "184.168.114.28",
   USER: "root",
   PASSWORD: "born2surajSQL",
   DB: "testdb_suraj",
