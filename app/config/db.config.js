@@ -4,6 +4,7 @@ module.exports = {
   PASSWORD: "born2surajSQL",
   DB: "testdb_suraj",
   dialect: "mysql",
+  port: 3306,
   pool: {
     max: 5,
     min: 0,
