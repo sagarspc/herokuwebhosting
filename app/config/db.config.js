@@ -1,9 +1,8 @@
 module.exports = {
-  HOST: "siddhiaquarium.in",
-  USER: "surajX9",
-  PASSWORD: "born2surajSQL",
+  HOST: "184.168.114.28",
+  USER: "root",
+  PASSWORD: "",
   DB: "testdb_suraj",
-  port:"3306",
   dialect: "mysql",
   pool: {
     max: 5,
