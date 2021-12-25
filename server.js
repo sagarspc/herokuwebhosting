@@ -5,7 +5,7 @@ const cookieSession = require("cookie-session");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:4200",optionsSuccessStatus: 200
+  origin: "http://siddhiaquarium.in",optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));

@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
+  HOST: "https://ecommerce-aqua.herokuapp.com",
   USER: "root",
-  PASSWORD: "",
-  DB: "testdb",
+  PASSWORD: "born2surajSQL",
+  DB: "testdb_suraj",
   dialect: "mysql",
   pool: {
     max: 5,
