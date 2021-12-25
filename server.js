@@ -8,6 +8,18 @@ var corsOptions = {
   origin: "http://siddhiaquarium.in",optionsSuccessStatus: 200
 };
 
+var corsOptions = {
+  origin: "http://siddhiaquarium.in",optionsSuccessStatus: 200
+};
+
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', 'http://siddhiaquarium.in');
+  res.setHeader('Access-Control-Allow-Methods', '*');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  next();
+});
+
 app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
