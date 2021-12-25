@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "https://ecommerce-aqua.herokuapp.com",
+  HOST: "ecommerce-aqua.herokuapp.com",
   USER: "root",
   PASSWORD: "born2surajSQL",
   DB: "testdb_suraj",
